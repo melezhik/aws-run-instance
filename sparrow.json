@@ -1,0 +1,9 @@
+{
+
+  "name" : "aws-run-instance",
+  "desciption" : "run aws instance",
+  "version" : "0.0.1",
+  "sparrow_version": "0.2.48",
+  "categories" : "utilities",
+  "url" : "https://github.com/melezhik/aws-run-instance"
+}
