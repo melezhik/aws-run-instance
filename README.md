@@ -33,6 +33,21 @@ It's convenient to run plugin as sparrow task providing sane defaults:
     subnet: subnet-bla-bla-bla
 
 
+Setting tags.
+
+To keep track of your instances you create with sparrow plugin you can use tag:
+
+
+    sparrow plg run aws-run-instance --param tag_key=foo --param tag_value=bar ...
+ 
+Or by using sparrow task:
+
+    $ sparrow task ini aws/run-instance
+    ---
+    tag_key: foo
+    tag_value: bar
+    # ... other parameters 
+
 # Author
 
 Alexey Melezhik
