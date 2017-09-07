@@ -1,6 +1,6 @@
 # SYNOPSIS
 
-Sparrow plugin to run aws instance
+Sparrow plugin to run aws instance.
 
 
 # INSTALL
@@ -38,7 +38,7 @@ Setting tags.
 To keep track of your instances you create with sparrow plugin you can use tag:
 
 
-    sparrow plg run aws-run-instance --param tag_key=foo --param tag_value=bar ...
+    $ sparrow plg run aws-run-instance --param tag_key=foo --param tag_value=bar ...
  
 Or by using sparrow task:
 
@@ -47,6 +47,22 @@ Or by using sparrow task:
     tag_key: foo
     tag_value: bar
     # ... other parameters 
+
+Setting key name
+
+To set name of the key pair, use `key` parameter:
+
+    $ sparrow plg run aws-run-instance --param key=SupportUser ...
+
+Or by using sparrow task:
+
+
+    $ sparrow task ini aws/run-instance
+    ---
+    key: SupportUser
+
+
+More about key pair read at the aws doc pages - [http://docs.aws.amazon.com/cli/latest/reference/ec2/run-instances.html](http://docs.aws.amazon.com/cli/latest/reference/ec2/run-instances.html)
 
 # Author
 
