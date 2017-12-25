@@ -14,7 +14,7 @@ else
 fi
 
 if test "${associate_public_ip}" = "on"; then
-  opts="--associate_public_ip";
+  opts="--associate-public-ip-address";
 else
   opts=""
 fi
