@@ -6,6 +6,7 @@ type=$(config type)
 tag_key=$(config tag_key)
 tag_value=$(config tag_value)
 associate_public_ip=$(config associate_public_ip)
+key=$(config key)
 
 if test -z $key; then
   keyname="";
