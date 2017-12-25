@@ -1,1 +1,2 @@
 type: "t2.micro"
+associate_public_ip: off

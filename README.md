@@ -64,6 +64,14 @@ Or by using sparrow task:
 
 More about key pair read at the aws doc pages - [http://docs.aws.amazon.com/cli/latest/reference/ec2/run-instances.html](http://docs.aws.amazon.com/cli/latest/reference/ec2/run-instances.html)
 
+# Assigning public IP
+
+Set `associate_public_ip` to "on" if you want a public IP address to be assigned to the new instance in a VPC.
+
+    $ sparrow task ini aws/run-instance
+    ---
+    associate_public_ip: on
+
 # Author
 
 Alexey Melezhik
