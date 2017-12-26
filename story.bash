@@ -7,7 +7,7 @@ tag_key=$(config tag_key)
 tag_value=$(config tag_value)
 associate_public_ip=$(config associate_public_ip)
 key=$(config key)
-sec_groups=$(sec_groups)
+sec_groups=$(config sec_groups)
 
 if test -z $key; then
   keyname="";
