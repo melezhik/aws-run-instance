@@ -21,9 +21,9 @@ else
 fi
 
 if test -z $sec_groups; then
-  sec_g_opts="--security-group-ids $sec_groups"
-else
   sec_g_opts=""
+else
+  sec_g_opts="--security-group-ids $sec_groups"
 fi
 
 
