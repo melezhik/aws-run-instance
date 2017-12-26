@@ -1,3 +1,7 @@
+# 0.0.10
+
+sec_groups option to add one or more security group IDs
+
 # 0.0.9
 
 Key fix

@@ -72,6 +72,14 @@ Set `associate_public_ip` to "on" if you want a public IP address to be assigned
     ---
     associate_public_ip: on
 
+# Adding one or more security group names
+
+Set `sec_groups`
+
+    $ sparrow task ini aws/run-instance
+    ---
+    sec_groups: sg-12345 sg-6789 sg-121344
+
 # Author
 
 Alexey Melezhik
